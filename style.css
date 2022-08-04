@@ -112,6 +112,30 @@ main {
     justify-content: space-between;
 }
 
+.memory-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: 18%;
+    right: 18%;
+    bottom: -25%;
+}
+
+.memory-left h1 {
+    font-size: 3em;
+    color: black;
+    padding-right: 1rem;
+}
+
+.memory-left span {
+    color: gray;
+    font-weight: 600;
+}
+
 
 /* Footer */
 .attribution { 
@@ -154,6 +178,12 @@ main {
     .second-container {
         width: 100%;
         align-items: flex-start;
+    }
+    
+    .memory-left{
+        left: 55%;
+        right: 10%;
+        bottom: 80%;
     }
 
 
